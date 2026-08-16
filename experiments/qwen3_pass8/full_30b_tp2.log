@@ -1,0 +1,12 @@
+[gpu1,2] ======== Qwen3-30B-A3B-Instruct-2507 ========
+launching Qwen/Qwen3-30B-A3B-Instruct-2507 on GPU(s) 1,2 -> :8021 (tp=2 len=40960 util=0.90)
+pid 702275
+[gpu1,2] --- Qwen3-30B-A3B-Instruct-2507 / aime2024 ---
+aime2024 | 30 problems x 8 seeds = 240 rows; 171 reused (0 adopted), 69 to generate
+done: 69/69 rows -> /home/ssn899/Desktop/LargeModelFix/experiments/qwen3_pass8/results/full/generations/Qwen3-30B-A3B-Instruct-2507__aime2024.jsonl
+Qwen3-30B-A3B-Instruct-2507  aime2024  pass@1= 48.8% +/- 3.7 | json=  89% ids=  89% topo=  81% closed=  25% cites=   0% steps=16 trunc=10
+[gpu1,2] --- Qwen3-30B-A3B-Instruct-2507 / aime2025 ---
+aime2025 | 30 problems x 8 seeds = 240 rows; 0 reused (0 adopted), 240 to generate
+done: 240/240 rows -> /home/ssn899/Desktop/LargeModelFix/experiments/qwen3_pass8/results/full/generations/Qwen3-30B-A3B-Instruct-2507__aime2025.jsonl
+Qwen3-30B-A3B-Instruct-2507  aime2025  pass@1= 34.2% +/- 3.6 | json=  90% ids=  90% topo=  82% closed=  26% cites=   0% steps=16 trunc=6
+[gpu1,2] ======== worker done ========

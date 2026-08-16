@@ -1,0 +1,4 @@
+[gpu2] ======== Qwen3-14B ========
+launching Qwen/Qwen3-14B on GPU(s) 2 -> :8032 (tp=1 len=40960 util=0.88)
+pid 1777559
+[gpu2] --- Qwen3-14B / aime2024 ---

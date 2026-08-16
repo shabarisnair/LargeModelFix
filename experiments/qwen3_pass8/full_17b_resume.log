@@ -1,0 +1,11 @@
+[gpu3] ======== Qwen3-1.7B ========
+launching Qwen/Qwen3-1.7B on GPU(s) 3 -> :8023 (tp=1 len=40960 util=0.85)
+pid 702536
+[gpu3] --- Qwen3-1.7B / aime2024 ---
+aime2024 | 30 problems x 8 seeds = 240 rows; 240 reused (0 adopted), 0 to generate
+Qwen3-1.7B                   aime2024  pass@1=  0.8% +/- 1.4 | json=  73% ids=  73% topo=  73% closed=   8% cites=   8% steps=8 trunc=63
+[gpu3] --- Qwen3-1.7B / aime2025 ---
+aime2025 | 30 problems x 8 seeds = 240 rows; 178 reused (0 adopted), 62 to generate
+done: 62/62 rows -> /home/ssn899/Desktop/LargeModelFix/experiments/qwen3_pass8/results/full/generations/Qwen3-1.7B__aime2025.jsonl
+Qwen3-1.7B                   aime2025  pass@1=  0.8% +/- 1.4 | json=  80% ids=  80% topo=  79% closed=  10% cites=   2% steps=9 trunc=48
+[gpu3] ======== worker done ========

@@ -1,0 +1,30 @@
+{
+  "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+  "dataset": "aime2024",
+  "n_problems": 30,
+  "n_seeds": 8,
+  "n_rows": 240,
+  "pass@1_mean": 0.3958333333333333,
+  "pass@1_std": 0.030900827029565276,
+  "per_seed_accuracy": {
+    "1000": 0.36666666666666664,
+    "1001": 0.4,
+    "1002": 0.36666666666666664,
+    "1003": 0.4666666666666667,
+    "1004": 0.36666666666666664,
+    "1005": 0.4,
+    "1006": 0.4,
+    "1007": 0.4
+  },
+  "valid_json_rate": 0.6958333333333333,
+  "contiguous_ids_rate": 0.6958333333333333,
+  "topological_rate": 0.65,
+  "closure_rate": 0.22083333333333333,
+  "citations_ok_rate": 0.0,
+  "plural_citation_rate": 0.14583333333333334,
+  "step_citation_rate": 0.19930340557275542,
+  "well_formed_dag_rate": 0.0,
+  "median_steps": 12.0,
+  "truncated": 16,
+  "mean_completion_tokens": 8993.841666666667
+}

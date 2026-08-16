@@ -1,0 +1,9 @@
+downloading Qwen/Qwen3-1.7B
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]Fetching 12 files:   8%|▊         | 1/12 [00:00<00:02,  4.18it/s]Fetching 12 files:  58%|█████▊    | 7/12 [00:06<00:04,  1.13it/s]Fetching 12 files: 100%|██████████| 12/12 [00:06<00:00,  2.00it/s]
+done Qwen/Qwen3-1.7B
+downloading Qwen/Qwen3-14B
+Fetching 18 files:   0%|          | 0/18 [00:00<?, ?it/s]Fetching 18 files:   6%|▌         | 1/18 [00:00<00:03,  5.16it/s]Fetching 18 files:  33%|███▎      | 6/18 [00:00<00:00, 22.61it/s]Fetching 18 files:  33%|███▎      | 6/18 [00:13<00:00, 22.61it/s]Fetching 18 files:  39%|███▉      | 7/18 [00:19<00:43,  3.91s/it]Fetching 18 files:  44%|████▍     | 8/18 [00:20<00:31,  3.17s/it]Fetching 18 files:  44%|████▍     | 8/18 [00:33<00:31,  3.17s/it]Fetching 18 files:  56%|█████▌    | 10/18 [00:51<01:03,  7.97s/it]Fetching 18 files:  67%|██████▋   | 12/18 [00:54<00:34,  5.78s/it]Fetching 18 files: 100%|██████████| 18/18 [00:54<00:00,  3.05s/it]
+done Qwen/Qwen3-14B
+downloading Qwen/Qwen3-30B-A3B-Instruct-2507
+Fetching 27 files:   0%|          | 0/27 [00:00<?, ?it/s]Fetching 27 files:   4%|▎         | 1/27 [00:00<00:06,  3.72it/s]Fetching 27 files:  30%|██▉       | 8/27 [00:16<00:39,  2.08s/it]Fetching 27 files:  33%|███▎      | 9/27 [01:53<05:07, 17.07s/it]Fetching 27 files:  41%|████      | 11/27 [02:36<04:54, 18.39s/it]Fetching 27 files:  44%|████▍     | 12/27 [02:37<03:47, 15.15s/it]Fetching 27 files:  56%|█████▌    | 15/27 [02:37<01:42,  8.58s/it]Fetching 27 files:  59%|█████▉    | 16/27 [02:42<01:27,  7.92s/it]Fetching 27 files:  63%|██████▎   | 17/27 [03:18<02:15, 13.52s/it]Fetching 27 files:  67%|██████▋   | 18/27 [03:27<01:53, 12.57s/it]Fetching 27 files:  70%|███████   | 19/27 [04:44<03:42, 27.85s/it]Fetching 27 files:  78%|███████▊  | 21/27 [04:44<01:39, 16.57s/it]Fetching 27 files: 100%|██████████| 27/27 [04:44<00:00, 10.53s/it]
+done Qwen/Qwen3-30B-A3B-Instruct-2507

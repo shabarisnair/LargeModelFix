@@ -1,0 +1,37 @@
+================ Qwen3-1.7B ================
+launching Qwen/Qwen3-1.7B on GPU(s) 1 -> :8020 (tp=1 len=40960 util=0.85)
+pid 404592
+aime2024 | 4 problems x 2 seeds = 8 rows; 0 reused (0 adopted), 8 to generate
+done: 8/8 rows -> /home/ssn899/Desktop/LargeModelFix/experiments/qwen3_pass8/results/sample/generations/Qwen3-1.7B__aime2024.jsonl
+Qwen3-1.7B                   aime2024  pass@1=  0.0% +/- 0.0 | json=  0.0% dag_ok=  0.0% steps=0 trunc=2
+aime2025 | 4 problems x 2 seeds = 8 rows; 0 reused (0 adopted), 8 to generate
+done: 8/8 rows -> /home/ssn899/Desktop/LargeModelFix/experiments/qwen3_pass8/results/sample/generations/Qwen3-1.7B__aime2025.jsonl
+Qwen3-1.7B                   aime2025  pass@1=  0.0% +/- 0.0 | json= 37.5% dag_ok=  0.0% steps=0 trunc=0
+================ Qwen3-8B ================
+launching Qwen/Qwen3-8B on GPU(s) 1 -> :8020 (tp=1 len=40960 util=0.85)
+pid 411651
+aime2024 | 4 problems x 2 seeds = 8 rows; 0 reused (0 adopted), 8 to generate
+done: 8/8 rows -> /home/ssn899/Desktop/LargeModelFix/experiments/qwen3_pass8/results/sample/generations/Qwen3-8B__aime2024.jsonl
+Qwen3-8B                     aime2024  pass@1=  0.0% +/- 0.0 | json= 25.0% dag_ok=  0.0% steps=0 trunc=0
+aime2025 | 4 problems x 2 seeds = 8 rows; 0 reused (0 adopted), 8 to generate
+done: 8/8 rows -> /home/ssn899/Desktop/LargeModelFix/experiments/qwen3_pass8/results/sample/generations/Qwen3-8B__aime2025.jsonl
+Qwen3-8B                     aime2025  pass@1=  0.0% +/- 0.0 | json= 25.0% dag_ok=  0.0% steps=0 trunc=0
+================ Qwen3-14B ================
+launching Qwen/Qwen3-14B on GPU(s) 1 -> :8020 (tp=1 len=40960 util=0.88)
+pid 416183
+aime2024 | 4 problems x 2 seeds = 8 rows; 0 reused (0 adopted), 8 to generate
+done: 8/8 rows -> /home/ssn899/Desktop/LargeModelFix/experiments/qwen3_pass8/results/sample/generations/Qwen3-14B__aime2024.jsonl
+Qwen3-14B                    aime2024  pass@1= 50.0% +/- 0.0 | json=100.0% dag_ok=  0.0% steps=20 trunc=0
+aime2025 | 4 problems x 2 seeds = 8 rows; 0 reused (0 adopted), 8 to generate
+done: 8/8 rows -> /home/ssn899/Desktop/LargeModelFix/experiments/qwen3_pass8/results/sample/generations/Qwen3-14B__aime2025.jsonl
+Qwen3-14B                    aime2025  pass@1= 37.5% +/-12.5 | json= 87.5% dag_ok=  0.0% steps=14 trunc=1
+================ Qwen3-30B-A3B-Instruct-2507 ================
+launching Qwen/Qwen3-30B-A3B-Instruct-2507 on GPU(s) 1 -> :8020 (tp=1 len=40960 util=0.92)
+pid 433147
+aime2024 | 4 problems x 2 seeds = 8 rows; 0 reused (0 adopted), 8 to generate
+done: 8/8 rows -> /home/ssn899/Desktop/LargeModelFix/experiments/qwen3_pass8/results/sample/generations/Qwen3-30B-A3B-Instruct-2507__aime2024.jsonl
+Qwen3-30B-A3B-Instruct-2507  aime2024  pass@1=100.0% +/- 0.0 | json=100.0% dag_ok=  0.0% steps=20 trunc=0
+aime2025 | 4 problems x 2 seeds = 8 rows; 0 reused (0 adopted), 8 to generate
+done: 8/8 rows -> /home/ssn899/Desktop/LargeModelFix/experiments/qwen3_pass8/results/sample/generations/Qwen3-30B-A3B-Instruct-2507__aime2025.jsonl
+Qwen3-30B-A3B-Instruct-2507  aime2025  pass@1= 87.5% +/-12.5 | json=100.0% dag_ok=  0.0% steps=14 trunc=0
+================ sample run complete ================

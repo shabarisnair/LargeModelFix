@@ -1,0 +1,36 @@
+Bad Example 1
+This example is marked as bad because the specific Step's step_id tags are missing from the text in the edge field.  JSON{
+  "steps": [
+    ...
+    {
+      "step_id": 36,
+      "edge": "Using the confirmed digit values--K=0, L=5, M=3, and N=9, the sum K + L + M + N is expressed as 0 + 5 + 3 + 9. This step prepares the expression for final evaluation.",
+      "direct_dependent_steps": [
+        8,
+        15,
+        26,
+        32,
+        35
+      ],
+      "node": "The sum of the digits $K + L + M + N$ is $0 + 5 + 3 + 9$."
+    },
+    ...
+  ]
+}
+Bad Example 2
+This example is marked as bad because it uses the plural grouping “Steps 8, 9, and 10” in the edge field, rather than citing each step individually in the singular format (e.g., “Step 8, Step 9, and Step 10”).  JSON{
+  "steps": [
+    ...
+    {
+      "step_id": 11,
+      "edge": "From Steps 8, 9, and 10, we have c(b - a) = 1 + 2k, b(c - a) = -3 + 6k, a(c - b) = -4 + 4k. To find relationships, assume a, b, c are such that differences are proportional. Let d = b - a, e = c - a, then c = a + e, b = a + d. Substitute into the equations.",
+      "direct_dependent_steps": [
+        8,
+        9,
+        10
+      ],
+      "node": "Define d = b - a and e = c - a. Then the equations become: (a + e) * d = 1 + 2k, (a + d) * e = -3 + 6k, a * (e - d) = -4 + 4k."
+    },
+    ...
+  ]
+}

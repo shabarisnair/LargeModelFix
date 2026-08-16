@@ -1,0 +1,3 @@
+16 traces, 941 steps total (longest 3), judge=deepseek-ai/DeepSeek-R1-Distill-Qwen-32B n=3 max_tokens=48000 thinking=True
+16 traces, 941 steps total (longest 3), judge=deepseek-ai/DeepSeek-R1-Distill-Qwen-32B n=3 max_tokens=16384 thinking=True
+done in 93.4 min -> /home/ssn899/Desktop/LargeModelFix/experiments/r1distill_pass8/reasoning_dags/dags.jsonl (16 rows)

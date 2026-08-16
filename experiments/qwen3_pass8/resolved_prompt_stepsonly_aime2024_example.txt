@@ -1,0 +1,97 @@
+Role and Objective
+You are an expert mathematical reasoner and logician. For the given problem, you must produce a single, valid JSON object containing a list of solution steps.
+
+Requirements
+The JSON object has exactly one field, steps, whose value is a list of strings.
+
+Each element of steps is one reasoning step.
+
+node (one execution sentence)
+
+Each step must be a single, atomic sentence making exactly one logical assertion (e.g., stating an equation, defining a variable, presenting a calculation result).
+
+All information, including facts from the problem statement and intermediate results, must be broken down into these atomic steps.
+
+The steps must be listed in the order they are derived, so that each step follows from the problem statement together with the steps before it.
+
+Avoid including irrelevant steps that do not contribute to the solution.
+
+The final step must be the answer statement in exactly this form: "The final answer is $\boxed{N}$.", where N is the final answer value.
+
+N must be the fully evaluated numeric value of the answer, written as a plain number. Do not leave N as a variable, an unevaluated expression, a fraction of unknowns, or any other placeholder; compute it to a single number before writing this step.
+
+Global Constraints
+
+Use LaTeX format enclosed in dollar signs for all mathematical expressions.
+
+Your entire output must be a single, valid JSON object. Do not include any text or commentary outside of the JSON structure. You will be provided with high-quality examples to demonstrate the required format and reasoning style.
+
+Demonstration Examples
+Example 1
+Problem: What is 25% of 60?
+Solution:
+{
+  "steps": [
+    "The problem asks for $25\\%$ of 60.",
+    "The percentage $25\\%$ is equivalent to the fraction $\\frac{25}{100}$.",
+    "The fraction $\\frac{25}{100}$ simplifies to $\\frac{1}{4}$.",
+    "To find $25\\%$ of 60, we compute $\\frac{1}{4}\\times 60$.",
+    "The product $\\frac{1}{4}\\times 60$ equals 15.",
+    "The final answer is $\\boxed{15}$. "
+  ]
+}
+
+Example 2
+Problem: How many solid $1 	imes 1 	imes 1$ cubes are required to make a solid $2 	imes 2 	imes 2$ cube?
+Solution:
+{
+  "steps": [
+    "For a cube with side length $s$, the volume equals $s^3$.",
+    "The side length of the smaller cube is $1$.",
+    "The volume of the smaller cube is $1^3 = 1$.",
+    "The side length of the larger cube is $2$.",
+    "The volume of the larger cube is $2^3 = 8$.",
+    "The number of smaller cubes required equals the volume of the larger cube divided by the volume of the smaller cube.",
+    "The division of volumes yields $8 / 1 = 8$.",
+    "The final answer is $\\boxed{8}$."
+  ]
+}
+
+Example 3
+Problem: How many of the 20 perfect squares $1^{2}, 2^{2}, 3^{2}, \ldots, 19^{2}, 20^{2}$ are divisible by 9?
+Solution:
+{
+  "steps": [
+    "The problem asks for the count of perfect squares among $1^2,2^2,\\ldots,20^2$ that are divisible by 9.",
+    "A number is divisible by 9 if and only if it is divisible by $3^2$.",
+    "A perfect square $n^2$ is divisible by 9 exactly when $n$ is divisible by 3.",
+    "The number of positive multiples of 3 not exceeding 20 is given by $\\lfloor20/3\\rfloor$.",
+    "We compute $\\lfloor20/3\\rfloor=6$.",
+    "Therefore there are 6 integers $n$ from 1 to 20 that are divisible by 3.",
+    "Hence there are 6 perfect squares among $1^2,2^2,\\ldots,20^2$ that are divisible by 9.",
+    "The final answer is $\\boxed{6}$."
+  ]
+}
+
+Example 4
+Problem: How many students chose Greek food if 200 students were asked to choose between pizza, Thai food, or Greek food, and the circle graph shows the results?
+Solution:
+{
+  "steps": [
+    "The problem states that 200 students were asked to choose among pizza, Thai food, or Greek food.",
+    "The circle graph shows that $50\\%$ of the students chose Greek food.",
+    "The symbol $50\\%$ represents the fraction $\\frac{50}{100}$.",
+    "The fraction $\\frac{50}{100}$ simplifies to $\\frac{1}{2}$.",
+    "One-half of a quantity $x$ can be calculated by multiplying $x$ by $\\frac{1}{2}$.",
+    "One-half of 200 is calculated as $200 \\times \\frac{1}{2}$.",
+    "The product $200 \\times \\frac{1}{2}$ equals $100$.",
+    "The final answer is $\\boxed{100}$."
+  ]
+}
+
+Problem: Let $x,y$ and $z$ be positive real numbers that satisfy the following system of equations: 
+\[\log_2\left({x \over yz}\right) = {1 \over 2}\]
+\[\log_2\left({y \over xz}\right) = {1 \over 3}\]
+\[\log_2\left({z \over xy}\right) = {1 \over 4}\]
+Then the value of $\left|\log_2(x^4y^3z^2)\right|$ is $\tfrac{m}{n}$ where $m$ and $n$ are relatively prime positive integers. Find $m+n$.
+Solution:

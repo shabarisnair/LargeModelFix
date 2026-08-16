@@ -1,0 +1,24 @@
+{
+  "model": "Qwen/Qwen3-14B",
+  "dataset": "aime2025",
+  "n_problems": 4,
+  "n_seeds": 2,
+  "n_rows": 8,
+  "pass@1_mean": 0.375,
+  "pass@1_std": 0.125,
+  "per_seed_accuracy": {
+    "1000": 0.25,
+    "1001": 0.5
+  },
+  "valid_json_rate": 0.875,
+  "contiguous_ids_rate": 0.875,
+  "topological_rate": 0.75,
+  "closure_rate": 0.0,
+  "citations_ok_rate": 0.0,
+  "plural_citation_rate": 0.125,
+  "step_citation_rate": 0.25555555555555554,
+  "well_formed_dag_rate": 0.0,
+  "median_steps": 14.5,
+  "truncated": 1,
+  "mean_completion_tokens": 6324.625
+}

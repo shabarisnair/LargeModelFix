@@ -1,0 +1,30 @@
+{
+  "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+  "dataset": "aime2025",
+  "n_problems": 30,
+  "n_seeds": 8,
+  "n_rows": 240,
+  "pass@1_mean": 0.0,
+  "pass@1_std": 0.0,
+  "per_seed_accuracy": {
+    "1000": 0.0,
+    "1001": 0.0,
+    "1002": 0.0,
+    "1003": 0.0,
+    "1004": 0.0,
+    "1005": 0.0,
+    "1006": 0.0,
+    "1007": 0.0
+  },
+  "valid_json_rate": 0.0,
+  "contiguous_ids_rate": 0.0,
+  "topological_rate": 0.0,
+  "closure_rate": 0.0,
+  "citations_ok_rate": 0.0,
+  "plural_citation_rate": 0.0,
+  "step_citation_rate": 0.0,
+  "well_formed_dag_rate": 0.0,
+  "median_steps": 0.0,
+  "truncated": 11,
+  "mean_completion_tokens": 14237.883333333333
+}

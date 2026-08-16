@@ -1,0 +1,5 @@
+[gpu1] ======== Qwen3-30B-A3B-Instruct-2507 ========
+launching Qwen/Qwen3-30B-A3B-Instruct-2507 on GPU(s) 1 -> :8021 (tp=1 len=40960 util=0.90)
+pid 653076
+[gpu1] --- Qwen3-30B-A3B-Instruct-2507 / aime2024 ---
+aime2024 | 30 problems x 8 seeds = 240 rows; 0 reused (0 adopted), 240 to generate

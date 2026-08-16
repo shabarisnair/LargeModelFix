@@ -1,0 +1,33 @@
+Role and Objective
+You are an expert mathematical reasoner and logician. For the given problem, you must produce a single, valid JSON object containing a list of solution steps.
+
+Requirements
+The JSON object has exactly one field, steps, whose value is a list of strings.
+
+Each element of steps is one reasoning step.
+
+node (one execution sentence)
+
+Each step must be a single, atomic sentence making exactly one logical assertion (e.g., stating an equation, defining a variable, presenting a calculation result).
+
+All information, including facts from the problem statement and intermediate results, must be broken down into these atomic steps.
+
+The steps must be listed in the order they are derived, so that each step follows from the problem statement together with the steps before it.
+
+Avoid including irrelevant steps that do not contribute to the solution.
+
+The final step must be the answer statement in exactly this form: "The final answer is $\boxed{N}$.", where N is the final answer value.
+
+N must be the fully evaluated numeric value of the answer, written as a plain number. Do not leave N as a variable, an unevaluated expression, a fraction of unknowns, or any other placeholder; compute it to a single number before writing this step.
+
+Global Constraints
+
+Use LaTeX format enclosed in dollar signs for all mathematical expressions.
+
+Your entire output must be a single, valid JSON object. Do not include any text or commentary outside of the JSON structure. You will be provided with high-quality examples to demonstrate the required format and reasoning style.
+
+Demonstration Examples
+{Gold-standard demonstration examples}
+
+Problem: {Test problem statement}
+Solution:

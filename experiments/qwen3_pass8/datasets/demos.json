@@ -1,0 +1,282 @@
+[
+ {
+  "problem_id": 3146,
+  "domain": [
+   "Mathematics -> Algebra -> Prealgebra -> Fractions"
+  ],
+  "difficulty": 1.0,
+  "problem_text": "What is 25% of 60?",
+  "sample_id": 1,
+  "final_answer": "The final answer is $\\boxed{15}$",
+  "steps": [
+   {
+    "step_id": 1,
+    "edge": "This step states the original problem as given, establishing the task: calculating 25% of the number 60. Since no prior steps exist, this serves as the foundational context for all subsequent reasoning, directly framing the mathematical operation required without requiring external justification.",
+    "direct_dependent_steps": null,
+    "node": "The problem asks for $25\\%$ of 60."
+   },
+   {
+    "step_id": 2,
+    "edge": "Building on Step 1's problem statement, we convert the percentage to a fraction using the definition that 'percent' means 'per hundred.' Thus, 25% explicitly translates to the ratio $\\frac{25}{100}$, which is the standard mathematical equivalence for percentages and provides a usable form for arithmetic operations.",
+    "direct_dependent_steps": [
+     1
+    ],
+    "node": "The percentage $25\\%$ is equivalent to the fraction $\\frac{25}{100}$."
+   },
+   {
+    "step_id": 3,
+    "edge": "Referencing Step 2's fraction $\\frac{25}{100}$, we simplify by dividing both numerator and denominator by their greatest common divisor, 25. This reduces $\\frac{25 \\div 25}{100 \\div 25}$ to $\\frac{1}{4}$, a simpler equivalent fraction that maintains the same value while making further calculations more efficient.",
+    "direct_dependent_steps": [
+     2
+    ],
+    "node": "The fraction $\\frac{25}{100}$ simplifies to $\\frac{1}{4}$."
+   },
+   {
+    "step_id": 4,
+    "edge": "Using Step 3's simplified fraction $\\frac{1}{4}$, we interpret '25% of 60' as a multiplication operation. In mathematics, the word 'of' between a fraction and a quantity denotes multiplication, so computing $\\frac{1}{4} \\times 60$ directly implements the problem's requirement to find the specified portion of 60.",
+    "direct_dependent_steps": [
+     3
+    ],
+    "node": "To find $25\\%$ of 60, we compute $\\frac{1}{4}\\times 60$."
+   },
+   {
+    "step_id": 5,
+    "edge": "Following Step 4's expression $\\frac{1}{4} \\times 60$, we evaluate the product by recognizing that multiplying by $\\frac{1}{4}$ is equivalent to dividing by 4. Thus, $60 \\div 4 = 15$. A quick verification confirms $15 \\times 4 = 60$, ensuring the division is correct and the result aligns with the fractional operation.",
+    "direct_dependent_steps": [
+     4
+    ],
+    "node": "The product $\\frac{1}{4}\\times 60$ equals 15."
+   },
+   {
+    "step_id": 6,
+    "edge": "Based on Step 5's verified calculation yielding 15, we present the final answer in the required boxed format. This step formalizes the numerical solution derived through the preceding logical sequence, directly answering the original question posed in Step 1 with the precise result of the percentage computation.",
+    "direct_dependent_steps": [
+     5
+    ],
+    "node": "The final answer is $\\boxed{15}$. "
+   }
+  ]
+ },
+ {
+  "problem_id": 2355,
+  "domain": [
+   "Mathematics -> Geometry -> Solid Geometry -> 3D Shapes"
+  ],
+  "difficulty": 1.5,
+  "problem_text": "How many solid $1 \times 1 \times 1$ cubes are required to make a solid $2 \times 2 \times 2$ cube?",
+  "sample_id": 1,
+  "final_answer": "The final answer is $\\boxed{8}$",
+  "steps": [
+   {
+    "step_id": 1,
+    "edge": "We recall the standard volume formula for a cube: for any cube with side length $s$, the volume is given by $s^3$. This is a fundamental geometric identity derived from the definition of volume in three dimensions, where each dimension contributes a factor of $s$, and it serves as the foundational principle for all subsequent volume calculations in this problem.",
+    "direct_dependent_steps": null,
+    "node": "For a cube with side length $s$, the volume equals $s^3$."
+   },
+   {
+    "step_id": 2,
+    "edge": "The problem explicitly states that we are working with $1 \\times 1 \\times 1$ cubes, so the side length of each smaller cube is $1$. This is directly provided in the problem statement and establishes the unit of measurement for the smaller cubes.",
+    "direct_dependent_steps": null,
+    "node": "The side length of the smaller cube is $1$."
+   },
+   {
+    "step_id": 3,
+    "edge": "Applying the volume formula from Step 1 with the side length of the smaller cube from Step 2, we compute $1^3$. Calculating this yields $1 \\times 1 \\times 1 = 1$. A quick sanity check confirms that a unit cube must have volume 1 by definition, as it represents the smallest indivisible cubic unit in this context.",
+    "direct_dependent_steps": [
+     1,
+     2
+    ],
+    "node": "The volume of the smaller cube is $1^3 = 1$."
+   },
+   {
+    "step_id": 4,
+    "edge": "The problem specifies the target shape is a $2 \\times 2 \\times 2$ cube, so the side length of the larger cube is $2$. This is directly stated in the problem text and defines the dimensions of the structure we aim to construct.",
+    "direct_dependent_steps": null,
+    "node": "The side length of the larger cube is $2$."
+   },
+   {
+    "step_id": 5,
+    "edge": "Using the volume formula from Step 1 and the side length of the larger cube from Step 4, we compute $2^3$. Performing the exponentiation: $2 \\times 2 \\times 2 = 8$. A quick sanity check: a $2 \\times 2 \\times 2$ cube must contain exactly 8 unit cubes since each edge is twice the unit length, and $2^3$ correctly accounts for the three-dimensional scaling.",
+    "direct_dependent_steps": [
+     1,
+     4
+    ],
+    "node": "The volume of the larger cube is $2^3 = 8$."
+   },
+   {
+    "step_id": 6,
+    "edge": "To determine how many smaller cubes fit perfectly into the larger cube without gaps or overlaps, we divide the volume of the larger cube (from Step 5) by the volume of one smaller cube (from Step 3). This ratio gives the exact count because volume is additive and the cubes are identical solid units; the larger volume must be completely partitioned by the smaller volumes, making division the appropriate operation for this packing problem.",
+    "direct_dependent_steps": [
+     3,
+     5
+    ],
+    "node": "The number of smaller cubes required equals the volume of the larger cube divided by the volume of the smaller cube."
+   },
+   {
+    "step_id": 7,
+    "edge": "Following the relationship established in Step 6, we compute $8 / 1$ using the volume values from Step 5 (larger cube volume = 8) and Step 3 (smaller cube volume = 1). The division yields $8$, which is consistent with integer arithmetic since any number divided by 1 remains unchanged. A sanity check confirms that 8 is a whole number, as fractional cubes cannot exist in this solid construction scenario.",
+    "direct_dependent_steps": [
+     3,
+     5,
+     6
+    ],
+    "node": "The division of volumes yields $8 / 1 = 8$."
+   },
+   {
+    "step_id": 8,
+    "edge": "The result from Step 7 provides the exact count of smaller cubes required to form the larger cube. Since this value (8) directly answers the problem's query about the number of $1 \\times 1 \\times 1$ cubes needed, we present it as the final solution in boxed notation.",
+    "direct_dependent_steps": [
+     7
+    ],
+    "node": "The final answer is $\\boxed{8}$."
+   }
+  ]
+ },
+ {
+  "problem_id": 2404,
+  "domain": [
+   "Mathematics -> Number Theory -> Factorization"
+  ],
+  "difficulty": 2.0,
+  "problem_text": "How many of the 20 perfect squares $1^{2}, 2^{2}, 3^{2}, \\ldots, 19^{2}, 20^{2}$ are divisible by 9?",
+  "sample_id": 1,
+  "final_answer": "$\\boxed{6}$",
+  "steps": [
+   {
+    "step_id": 1,
+    "edge": "This step explicitly states the problem's objective: to determine how many squares in the sequence $1^2$ through $20^2$ are divisible by 9. Since no prior steps are referenced, this is directly given by the problem statement and establishes the scope of the solution without requiring external justification.",
+    "direct_dependent_steps": null,
+    "node": "The problem asks for the count of perfect squares among $1^2,2^2,\\ldots,20^2$ that are divisible by 9."
+   },
+   {
+    "step_id": 2,
+    "edge": "This step invokes a fundamental number theory fact: divisibility by $9$ (which factors as $3^2$) requires a number to contain at least two factors of 3 in its prime factorization. As no dependencies are listed, this is a standalone definition rooted in the properties of prime powers and divisibility rules for integers.",
+    "direct_dependent_steps": null,
+    "node": "A number is divisible by 9 if and only if it is divisible by $3^2$."
+   },
+   {
+    "step_id": 3,
+    "edge": "Building on Step 2's principle that divisibility by $9$ requires $3^2$, we analyze perfect squares. For $n^2$ to contain $3^2$ in its prime factorization, $n$ itself must contain at least one factor of 3 (since squaring doubles exponents in the prime factorization). Thus, $n$ divisible by 3 is both necessary and sufficient for $n^2$ to be divisible by 9, directly leveraging the divisibility condition from Step 2.",
+    "direct_dependent_steps": [
+     2
+    ],
+    "node": "A perfect square $n^2$ is divisible by 9 exactly when $n$ is divisible by 3."
+   },
+   {
+    "step_id": 4,
+    "edge": "To count how many $n$ in $1 \\leq n \\leq 20$ satisfy the condition from Step 3 (i.e., $n$ divisible by 3), we apply the standard counting technique for multiples within a range. Step 1 defines the range as $1$ to $20$, so the count of multiples of 3 is given by $\\lfloor 20/3 \\rfloor$, which systematically accounts for all integers $n$ where $3 \\mid n$ without exceeding the upper limit.",
+    "direct_dependent_steps": [
+     1
+    ],
+    "node": "The number of positive multiples of 3 not exceeding 20 is given by $\\lfloor20/3\\rfloor$."
+   },
+   {
+    "step_id": 5,
+    "edge": "We evaluate the expression from Step 4: $20 \\div 3 = 6.666\\ldots$. Taking the floor yields $6$. A quick sanity check confirms this: $3 \\times 6 = 18 \\leq 20$, while $3 \\times 7 = 21 > 20$, so exactly 6 multiples of 3 exist in the range.",
+    "direct_dependent_steps": [
+     4
+    ],
+    "node": "We compute $\\lfloor20/3\\rfloor=6$."
+   },
+   {
+    "step_id": 6,
+    "edge": "Step 5 computed $\\lfloor 20/3 \\rfloor = 6$, which directly gives the count of integers $n$ from 1 to 20 divisible by 3. This step restates that numerical result as a concrete count, bridging the arithmetic calculation to the problem's context.",
+    "direct_dependent_steps": [
+     5
+    ],
+    "node": "Therefore there are 6 integers $n$ from 1 to 20 that are divisible by 3."
+   },
+   {
+    "step_id": 7,
+    "edge": "Combining Step 3 (which established that $n^2$ divisible by 9 iff $n$ divisible by 3) and Step 6 (which counted 6 such $n$ values), we conclude that exactly 6 perfect squares in the sequence satisfy the divisibility condition. This synthesizes the logical condition with the enumerated count to answer the original problem.",
+    "direct_dependent_steps": [
+     3,
+     6
+    ],
+    "node": "Hence there are 6 perfect squares among $1^2,2^2,\\ldots,20^2$ that are divisible by 9."
+   },
+   {
+    "step_id": 8,
+    "edge": "Step 7 determined there are 6 qualifying perfect squares, so this step formally presents the final answer in the required boxed format, directly inheriting the result from the preceding conclusion.",
+    "direct_dependent_steps": [
+     7
+    ],
+    "node": "The final answer is $\\boxed{6}$."
+   }
+  ]
+ },
+ {
+  "problem_id": 3145,
+  "domain": [
+   "Mathematics -> Applied Mathematics -> Math Word Problems",
+   "Mathematics -> Applied Mathematics -> Statistics -> Probability -> Other"
+  ],
+  "difficulty": 1.0,
+  "problem_text": "How many students chose Greek food if 200 students were asked to choose between pizza, Thai food, or Greek food, and the circle graph shows the results?",
+  "sample_id": 1,
+  "final_answer": "$\\boxed{100}$",
+  "steps": [
+   {
+    "step_id": 1,
+    "edge": "The problem statement explicitly provides that 200 students participated in the survey, establishing the total population for our calculation. This fact is given directly in the problem context and serves as the foundational quantity required to determine the subset who chose Greek food.",
+    "direct_dependent_steps": null,
+    "node": "The problem states that 200 students were asked to choose among pizza, Thai food, or Greek food."
+   },
+   {
+    "step_id": 2,
+    "edge": "The circle graph, as part of the problem's data presentation, specifies that 50% of students selected Greek food. This percentage is a critical input derived from the graphical representation and is taken as given information without requiring prior computation.",
+    "direct_dependent_steps": null,
+    "node": "The circle graph shows that $50\\%$ of the students chose Greek food."
+   },
+   {
+    "step_id": 3,
+    "edge": "Referencing the 50% value from Step 2, we convert the percentage to a fraction using the standard definition where 'percent' means 'per hundred', so 50% is mathematically equivalent to the fraction 50/100. This conversion allows us to work with fractional arithmetic in subsequent steps.",
+    "direct_dependent_steps": [
+     2
+    ],
+    "node": "The symbol $50\\%$ represents the fraction $\\frac{50}{100}$."
+   },
+   {
+    "step_id": 4,
+    "edge": "Starting from the fraction 50/100 obtained in Step 3, we simplify it by dividing both numerator and denominator by their greatest common divisor (50), resulting in 1/2. This reduced fraction is numerically identical but more efficient for multiplication operations.",
+    "direct_dependent_steps": [
+     3
+    ],
+    "node": "The fraction $\\frac{50}{100}$ simplifies to $\\frac{1}{2}$."
+   },
+   {
+    "step_id": 5,
+    "edge": "Using the simplified fraction 1/2 from Step 4, we apply the fundamental arithmetic principle that finding a fractional part of a quantity requires multiplication. Specifically, one-half of any number x is computed as x multiplied by 1/2, which provides the method for determining the subset size.",
+    "direct_dependent_steps": [
+     4
+    ],
+    "node": "One-half of a quantity $x$ can be calculated by multiplying $x$ by $\\frac{1}{2}$."
+   },
+   {
+    "step_id": 6,
+    "edge": "Combining the total student count of 200 from Step 1 with the fractional multiplication method from Step 5, we set up the specific calculation: 200 \u00d7 1/2. This step directly applies the one-half fraction to the survey total to find the number of students who chose Greek food.",
+    "direct_dependent_steps": [
+     1,
+     5
+    ],
+    "node": "One-half of 200 is calculated as $200 \\times \\frac{1}{2}$."
+   },
+   {
+    "step_id": 7,
+    "edge": "Evaluating the expression 200 \u00d7 1/2 from Step 6: multiplying 200 by 1/2 is equivalent to dividing 200 by 2, yielding 100. A quick sanity check confirms 100 \u00d7 2 = 200, so half of 200 is indeed 100, verifying the arithmetic correctness.",
+    "direct_dependent_steps": [
+     6
+    ],
+    "node": "The product $200 \\times \\frac{1}{2}$ equals $100$."
+   },
+   {
+    "step_id": 8,
+    "edge": "The numerical result 100 from Step 7 represents the count of students who chose Greek food. We present this value as the final answer in the required boxed format, as it directly responds to the problem's query and completes the solution process.",
+    "direct_dependent_steps": [
+     7
+    ],
+    "node": "The final answer is $\\boxed{100}$."
+   }
+  ]
+ }
+]

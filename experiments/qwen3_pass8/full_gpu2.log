@@ -1,0 +1,12 @@
+[gpu2] ======== Qwen3-14B ========
+launching Qwen/Qwen3-14B on GPU(s) 2 -> :8022 (tp=1 len=40960 util=0.88)
+pid 518418
+[gpu2] --- Qwen3-14B / aime2024 ---
+aime2024 | 30 problems x 8 seeds = 240 rows; 0 reused (0 adopted), 240 to generate
+done: 240/240 rows -> /home/ssn899/Desktop/LargeModelFix/experiments/qwen3_pass8/results/full/generations/Qwen3-14B__aime2024.jsonl
+Qwen3-14B                    aime2024  pass@1= 17.9% +/- 3.7 | json=  92% ids=  92% topo=  84% closed=   8% cites=   0% steps=16 trunc=20
+[gpu2] --- Qwen3-14B / aime2025 ---
+aime2025 | 30 problems x 8 seeds = 240 rows; 0 reused (0 adopted), 240 to generate
+done: 240/240 rows -> /home/ssn899/Desktop/LargeModelFix/experiments/qwen3_pass8/results/full/generations/Qwen3-14B__aime2025.jsonl
+Qwen3-14B                    aime2025  pass@1= 17.9% +/- 3.7 | json=  95% ids=  95% topo=  90% closed=  10% cites=   2% steps=16 trunc=11
+[gpu2] ======== worker done ========

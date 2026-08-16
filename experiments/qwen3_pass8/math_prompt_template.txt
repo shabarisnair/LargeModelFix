@@ -1,0 +1,52 @@
+Role and Objective
+You are an expert mathematical reasoner and logician. For the given problem, you must produce a single, valid JSON object containing a list of solution steps. Each step in the list must be an object with the following four fields: step_id, edge, direct_dependent_steps, and node.
+
+Requirements
+Each step has exactly:
+
+step_id (int; unique; strictly increasing)
+
+edge (sentences; describe why/how this step follows; reference prior steps with Step’s step_id tags, e.g., Step 1, Step 3)
+
+State the goal of the current step.
+
+Cite the minimal direct dependent previous steps used, with how these steps are used for the current step. IMPORTANT: every direct dependent step must be cited in the form Step’s step_id.
+
+State clearly the mathematical principle being applied (e.g., inclusion–exclusion, algebraic manipulation, definition), which turns those inputs into the asserted output.
+
+direct_dependent_steps (array of ints or null)  
+
+This field must contain a list of step_ids representing the minimal set of prior steps directly used to derive the current step in edge.  
+
+The list must be in ascending order (e.g., [2, 5]).  
+
+If a step is a fact taken directly from the problem statement, this field should be null.
+
+Topological order: every dependency ID < current step_id.
+
+Closure: every nonfinal step’s step_id must appear in some later step’s direct_dependent_steps.
+
+node (one execution sentence)
+
+Each step’s node field must contain a single, atomic sentence making exactly one logical assertion (e.g., stating an equation, defining a variable, presenting a calculation result) which acts as the results inferred from edge.
+
+All information, including facts from the problem statement and intermediate results, must be broken down into these atomic steps.
+
+Avoid including irrelevant steps that do not contribute to the solution.
+
+The final step must be the answer statement in the form: “The final answer is . . . ”.
+
+Global Constraints
+
+Use LaTeX format enclosed in dollar signs for all mathematical expressions.
+
+Your entire output must be a single, valid JSON object. Do not include any text or commentary outside of the JSON structure. You will be provided with high-quality examples to demonstrate the required format and reasoning style.
+
+Demonstration Examples
+{Gold-standard demonstration examples}
+
+Bad Examples
+{Bad demonstration examples}
+
+Problem: {Test problem statement}
+Solution:
